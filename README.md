@@ -1,6 +1,6 @@
-# format-api
+# Format-API
 
-Is a Search tool for accessing formats images, via api.
+Is a Search tool for accessing Format's images, via api powered by Haystack.im.
 
 - Host : http://search.haystack.im
 
@@ -13,7 +13,7 @@ Content-Type: Application/JSON
 ```js
 {
     //Array of words
-    "term": ["russia"],
+    "term": ["water"],
     //Sort By
     "sorting": "rating",
     //Offset
@@ -26,40 +26,136 @@ Content-Type: Application/JSON
 ###Example Responds:
 ````
 {
-  "results_total": 1,
+  "results_total": 3,
   "results": [
     {
       "org": "format",
       "collection": "format",
-      "image_id": "format_54383176",
-      "key": "format_54383176",
-      "id": "54383176",
+      "image_id": "format_9984101",
+      "key": "format_9984101",
+      "id": "9984101",
+      "url": "http://www.nirrimi.com",
+      "headline": "b",
       "keywords": [
-        "underwater",
+        "travel",
+        "outdoors",
+        "sky",
+        "water",
+        "women",
+        "sunshine",
+        "architecture",
+        "sunset",
+        "people",
+        "coast",
+        "leisure",
+        "nobody",
+        "relaxation",
+        "summer",
+        "city",
+        "adult",
+        "beach",
+        "togetherness",
+        "sea",
+        "men"
+      ],
+      "thumb": "https://s3.amazonaws.com/hay-format/9984101.jpg",
+      "src": "http://a2.format-assets.com/image/private/s--vnaBsmBp--/a_auto,fl_keep_iptc.progressive,q_95/25390-6798121-2b1",
+      "width": "1500",
+      "height": "1014",
+      "orientation": "Horizontal",
+      "rating": 0.6822541,
+      "creator_industry": "Photography - Portrait",
+      "creator_description": "Young photographer, writer & mama living all over the world and sharing goodness.",
+      "creator_city": "Melton",
+      "creator_region": "07",
+      "creator_country": "Australia",
+      "creator_site_domain": "http://www.nirrimi.com"
+    },
+    {
+      "org": "format",
+      "collection": "format",
+      "image_id": "format_9984191",
+      "key": "format_9984191",
+      "id": "9984191",
+      "url": "http://www.nirrimi.com",
+      "headline": "a",
+      "keywords": [
+        "beach",
+        "coast",
         "water",
         "sea",
-        "fish",
-        "ocean",
-        "coral",
         "travel",
-        "reef",
-        "invertebrate",
-        "nobody",
-        "diving",
+        "ocean",
+        "sand",
+        "leisure",
+        "barefoot",
+        "solitude",
+        "girl",
+        "love",
         "outdoors",
-        "shallow",
-        "swimming",
-        "lagoon",
-        "seascape",
-        "color",
-        "scuba",
-        "snorkeling",
-        "nature"
+        "child",
+        "fun",
+        "recreation",
+        "carefree",
+        "romance",
+        "relaxation",
+        "vacation"
       ],
-      "width": 1000,
-      "height": 1000,
+      "thumb": "https://s3.amazonaws.com/hay-format/9984191.jpg",
+      "src": "http://a4.format-assets.com/image/private/s--Ssk9nTc3--/a_auto,fl_keep_iptc.progressive,q_95/25390-6798198-3a3",
+      "width": "1500",
+      "height": "2234",
+      "orientation": "Vertical",
+      "rating": 0.68061507,
+      "creator_industry": "Photography - Portrait",
+      "creator_description": "Young photographer, writer & mama living all over the world and sharing goodness.",
+      "creator_city": "Melton",
+      "creator_region": "07",
+      "creator_country": "Australia",
+      "creator_site_domain": "http://www.nirrimi.com"
+    },
+    {
+      "org": "format",
+      "collection": "format",
+      "image_id": "format_9984200",
+      "key": "format_9984200",
+      "id": "9984200",
+      "url": "http://www.nirrimi.com",
+      "headline": "a",
+      "keywords": [
+        "beach",
+        "relaxation",
+        "summer",
+        "sexy",
+        "leisure",
+        "women",
+        "portrait",
+        "people",
+        "one",
+        "adult",
+        "sand",
+        "vacation",
+        "brunette",
+        "enjoyment",
+        "water",
+        "nude",
+        "girl",
+        "tan",
+        "lifestyle",
+        "love"
+      ],
+      "thumb": "https://s3.amazonaws.com/hay-format/9984200.jpg",
+      "src": "http://a2.format-assets.com/image/private/s--6Opbh5sm--/a_auto,fl_keep_iptc.progressive,q_95/25390-6798207-3a5",
+      "width": "1500",
+      "height": "1000",
       "orientation": "Horizontal",
-      "rating": 0.52558506
+      "rating": 0.6665139,
+      "creator_industry": "Photography - Portrait",
+      "creator_description": "Young photographer, writer & mama living all over the world and sharing goodness.",
+      "creator_city": "Melton",
+      "creator_region": "07",
+      "creator_country": "Australia",
+      "creator_site_domain": "http://www.nirrimi.com"
     }
   ]
 }
