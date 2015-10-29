@@ -22,6 +22,15 @@ Content-Type: Application/JSON
     "limit": 60
 }
 ```
+```bash
+curl -X POST -H "Content-Type: application/json" -H "Authorization: Basic bHNxOmNiMmNhZTNlNjMxZTYwZDA5MThhZjQ3ODk1NWY5MGM5" -H "Cache-Control: no-cache" -H "Postman-Token: 54e272b3-5244-10c6-6fb6-c8d18e89ec1d" -d '{
+   "term": ["girl"],
+   "sorting": "rating",
+   "offset": 0,
+   "limit": 60
+}' 'http://search.haystack.im/api/v1/format'
+```
+
 
 ###Example Responds:
 ````
